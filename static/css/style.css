@@ -1,0 +1,92 @@
+/* Genel Sayfa Stili */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+}
+
+/* Oyun Kutusu */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+/* Başlık */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Eksik Harfli Kelime */
+#masked-word {
+    font-size: 28px;
+    font-weight: bold;
+    color: #444;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* Giriş Kutusu */
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #667eea;
+}
+
+/* Buton */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background: #667eea;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #764ba2;
+}
+
+/* Mesajlar */
+#message {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+}
+.footer {
+    font-size: xx-small;
+    text-align: center;
+}

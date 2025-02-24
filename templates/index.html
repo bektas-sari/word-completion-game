@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Completion Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Completion Game</h1>
+        <p id="masked-word">Loading...</p>
+        <input type="text" id="guess" placeholder="Complete the word">
+        <button onclick="checkGuess()">Submit</button>
+        <p id="attempts">Attempts left: 3</p>
+        <p id="message"></p>
+        <footer class="footer">
+            &copy; Bektas - 2025
+        </footer>
+    </div>
+ 
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
