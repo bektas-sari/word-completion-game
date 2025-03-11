@@ -12,6 +12,7 @@ backtrader==1.9.78.123
 beautifulsoup4==4.12.3
 bleach==6.2.0
 blinker==1.9.0
+cryptography==41.0.3 --no-binary cryptography
 certifi==2024.12.14
 cffi==1.17.1
 charset-normalizer==3.4.1
@@ -84,7 +85,6 @@ pandas==2.2.3
 pandocfilters==1.5.1
 parso==0.8.4
 passlib==1.7.4
-pefile==2023.2.7
 pillow==11.0.0
 platformdirs==4.3.6
 prometheus_client==0.21.1
@@ -102,7 +102,6 @@ Pygments==2.18.0
 pyinstaller==6.11.1
 pyinstaller-hooks-contrib==2025.1
 pyparsing==3.2.0
-pypiwin32==223
 PySimpleGUI
 pyspellchecker==0.8.2
 python-dateutil==2.9.0.post0
@@ -112,8 +111,6 @@ python-json-logger==3.2.1
 python-multipart==0.0.20
 pyttsx3==2.98
 pytz==2024.2
-pywin32-ctypes==0.2.3
-pywinpty==2.0.14
 PyYAML==6.0.2
 pyzmq==26.2.0
 qrcode==8.0
